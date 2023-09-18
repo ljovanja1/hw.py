@@ -19,3 +19,8 @@ elif a == len(list_1):
 else:
     res = list_1[a-1] + list_1[a-2] + list_1[a]
 print(res, 'ягод')
+
+
+# list[i-1]+list[i]+list[i-n+1] - вот это условие подходит под все случаи, проверьте.
+# list[i-1]+list[i]+list[(i+1) % n] - или это
+# list[i-2]+list[i-1]+list[i] - или это
